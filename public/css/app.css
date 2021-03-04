@@ -79,6 +79,7 @@ body {
   width: 100%;
   height: 100px;
   border-bottom: 1px solid #ddd;
+  margin-bottom: 50px;
 }
 
 #header .menu-bottom .container {
@@ -194,5 +195,75 @@ body {
   color: #000;
   font-family: "Bebas Neue", cursive;
   text-align: right;
+}
+
+#main {
+  width: 100%;
+}
+
+#main #main-top {
+  padding-bottom: 20px;
+  background: #000;
+}
+
+#main #main-top .container {
+  height: auto;
+}
+
+#main #main-top .container nav {
+  width: 100%;
+  height: 50px;
+}
+
+#main #main-top .container nav .menu-release {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  margin-left: 50%;
+  justify-content: flex-end;
+}
+
+#main #main-top .container nav .menu-release li {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+#main #main-top .container nav .menu-release li a {
+  margin-right: 10px;
+  font-family: "Bebas Neue", cursive;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #777;
+}
+
+#main #main-top .container nav .menu-release li a:hover {
+  color: #0282f9;
+}
+
+#main #main-top .content {
+  display: flex;
+  padding-left: 10px;
+}
+
+#main #main-top .content .card {
+  width: calc(100% / 5);
+  height: 100%;
+  padding: 0 5px;
+  text-transform: uppercase;
+  font-family: "Amaranth", sans-serif;
+}
+
+#main #main-top .content .card img {
+  display: block;
+}
+
+#main #main-top .content .card .title {
+  color: #fff;
+}
+
+#main #main-top .content .card .available {
+  color: #0282f9;
 }
 

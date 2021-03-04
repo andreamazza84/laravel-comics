@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ config('app.name', 'DC Comics') }}</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -99,8 +99,70 @@
 
         </header>
 
-        <main class="py-4">
-            @yield('content')
+        <main id="main">
+            <section id="main-top">
+                <div class="container">
+                    <nav>
+                        <ul class="menu-release">
+                            <li><a href="#">this week</a></li>
+                            <li><a href="#">last week</a></li>
+                            <li><a href="#">next week</a></li>
+                            <li><a href="#">upcoming</a></li>
+                            <li><a href="#">see all</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="content">
+                    <div class="card">
+                        @yield('content')
+                        {{-- da inserire in content --}}
+                        <img src="{{ asset('img/BM_106_300-001_HD_60343a048f2af5.78911718.jpg') }}" alt="">
+                        <div class="title">batman #106</div>
+                        <div class="available">available</div>
+                        {{-- da inserire in content --}}
+
+                    </div>
+                    <div class="card">
+                        @yield('content')
+                        {{-- da inserire in content --}}
+                        <img src="{{ asset('img/BM_106_300-001_HD_60343a048f2af5.78911718.jpg') }}" alt="">
+                        <div class="title">batman #106</div>
+                        <div class="available">available</div>
+                        {{-- da inserire in content --}}
+
+                    </div>
+                    <div class="card">
+                        @yield('content')
+                        {{-- da inserire in content --}}
+                        <img src="{{ asset('img/BM_106_300-001_HD_60343a048f2af5.78911718.jpg') }}" alt="">
+                        <div class="title">batman #106</div>
+                        <div class="available">available</div>
+                        {{-- da inserire in content --}}
+
+                    </div>
+                    <div class="card">
+                        @yield('content')
+                        {{-- da inserire in content --}}
+                        <img src="{{ asset('img/BM_106_300-001_HD_60343a048f2af5.78911718.jpg') }}" alt="">
+                        <div class="title">batman #106</div>
+                        <div class="available">available</div>
+                        {{-- da inserire in content --}}
+
+                    </div>
+                    <div class="card">
+                        @yield('content')
+                        {{-- da inserire in content --}}
+                        <img src="{{ asset('img/BM_106_300-001_HD_60343a048f2af5.78911718.jpg') }}" alt="">
+                        <div class="title">batman #106</div>
+                        <div class="available">available now</div>
+                        {{-- da inserire in content --}}
+
+                    </div>
+                </div>
+            </section>
+            <section id="main-center"></section>
+            <section id="main-bottom"></section>
+
         </main>
     </div>
 </body>
