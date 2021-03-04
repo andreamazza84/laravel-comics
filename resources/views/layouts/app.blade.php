@@ -18,7 +18,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&family=Bebas+Neue&family=Passion+One&display=swap" rel="stylesheet">     
-    
+    <!-- Font-Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -69,8 +70,32 @@
                         </li>  
                     </ul>
             </nav>
-            <nav class="menu-center"></nav>
-            <nav class="menu-bottom"></nav>
+            <nav class="menu-bottom">
+                <div class="container">
+                    <a href="#" class="logo">
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="900.14px" height="900.141px" viewBox="0 0 900.14 900.141" enable-background="new 0 0 900.14 900.141" xml:space="preserve">
+                            <path d="M450.069,0C201.503,0,0,201.503,0,450.071s201.503,450.07,450.069,450.07  c248.568,0,450.071-201.503,450.071-450.07S698.637,0,450.069,0z M33.109,450.071c0-48.351,8.128-95.443,24.204-140.321  l43.292,30.07v337.863c-13.458-20.62-25.057-42.439-34.743-65.328C44.137,560.971,33.109,506.372,33.109,450.071z M744.906,744.908  c-38.301,38.299-82.896,68.369-132.543,89.37c-51.384,21.736-105.984,32.753-162.293,32.753c-56.299,0-110.9-11.017-162.282-32.753  c-49.656-21.001-94.244-51.071-132.552-89.37c-12.079-12.089-23.34-24.795-33.757-38.094h230.427l90.743-65.694V283.555  l-90.743-67.571H104.923c14.725-21.659,31.534-41.959,50.313-60.747c38.308-38.309,82.896-68.378,132.552-89.373  c51.382-21.736,105.983-32.753,162.282-32.753c56.309,0,110.91,11.017,162.293,32.753c49.646,20.995,94.242,51.064,132.543,89.373  c18.788,18.787,35.586,39.088,50.312,60.747h-65.882l-14.8,32.679l-43.988-32.679h-102.34l-90.088,67.571V641.12l89.665,65.694  h210.888C768.256,720.113,756.992,732.819,744.906,744.908z M192.605,328.332h82.409c23.058,0,41.743,18.684,41.743,41.742v184.78  c0,23.05-18.685,41.741-41.743,41.741h-49.44V352.225L192.605,328.332z M810.533,659.841V532.432H693.907v64.163h-50.376  c-22.037,0-39.896-17.857-39.896-39.893v-204.43l-32.989-23.94h123.261v70.037h106.904l21.265-136.866  c4.355,8.586,8.43,17.352,12.2,26.275c21.736,51.383,32.756,105.983,32.756,162.292c0,56.301-11.02,110.9-32.756,162.284  C827.342,628.75,819.42,644.592,810.533,659.841z"/>
+                        </svg>
+                    </a>
+                    <ul class="navbar">
+                        <li><a href="#">characters</a></li>
+                        <li><a href="#" class="active">comics</a></li>
+                        <li><a href="#">movies</a></li>
+                        <li><a href="#">tv</a></li>
+                        <li><a href="#">games</a></li>
+                        <li><a href="#">videos</a></li>
+                        <li><a href="#">news</a></li>
+                        <li><a href="#">shop</a></li>
+                    </ul>
+                    <div class="searchbar">
+                        <div class="wrapper">
+                            <input type="text" name="search" id="search" placeholder="Search">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </nav>
 
         </header>
 
