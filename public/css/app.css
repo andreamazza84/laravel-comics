@@ -288,14 +288,6 @@ h1 {
   padding: 0 10px;
 }
 
-#main #main-top .content .card .tag {
-  top: 0;
-  left: 10px;
-  font-size: 14px;
-  background: #0282f9;
-  color: #fff;
-}
-
 #main #main-top .content .card .cover {
   display: block;
   width: 100%;
@@ -320,10 +312,18 @@ h1 {
   font-family: "Poppins", sans-serif;
 }
 
+#main #main-top .content .card .tag {
+  top: 0;
+  left: 10px;
+  font-size: 14px;
+  background: #0282f9;
+  color: #fff;
+}
+
 #main #main-center {
+  min-height: 400px;
   padding: 40px 0;
   background: #fff;
-  min-height: 400px;
 }
 
 #main #main-center .container {
@@ -377,5 +377,86 @@ h1 {
 #main #main-center .container .card .description {
   font-size: 12px;
   font-family: "Poppins", sans-serif;
+}
+
+#main #main-bottom {
+  min-height: 400px;
+  background: #000;
+}
+
+#main #main-bottom .container {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  height: auto;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+#main #main-bottom .container .tag {
+  transform: translate(0, -50%);
+  top: 0;
+  left: 0;
+  background: #0282f9;
+  color: #fff;
+}
+
+#main #main-bottom .container .card {
+  width: calc(100% / 6);
+  height: auto;
+  text-transform: uppercase;
+  padding: 0 10px;
+  margin-bottom: 40px;
+}
+
+#main #main-bottom .container .card .cover {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#main #main-bottom .container .card .cover img {
+  width: 100%;
+}
+
+#main #main-bottom .container .card .title {
+  display: block;
+  color: #fff;
+  margin-bottom: 10px;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+
+#footer {
+  width: 100%;
+  height: 200px;
+  background: #0282f9;
+}
+
+#footer #footer-top {
+  width: 100%;
+  height: 100%;
+}
+
+#footer #footer-top .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#footer #footer-top .container a {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+#footer #footer-top .container a i {
+  font-size: 45px;
+  margin-right: 20px;
 }
 

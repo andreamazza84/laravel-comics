@@ -195,9 +195,100 @@
 
                 </div>
             </section>
-            <section id="main-bottom"></section>
+            <section id="main-bottom">
+                <div class="container">
+                    <h1 class="tag">current series</h1>
+                    <div class="card">
+                        <a href="#" class="cover">
+                            <img src="{{ asset('img/SeriesThumb5_Batman_5bd218c153e9a0.67359915.jpg') }}" alt="">
+                        </a>
+                        <a href="#" class="title">amercan vampire 1976</a>
+                    </div>
+                    <div class="card">
+                        <a href="#" class="cover">
+                            <img src="{{ asset('img/SeriesThumb5_Batman_5bd218c153e9a0.67359915.jpg') }}" alt="">
+                        </a>
+                        <a href="#" class="title">amercan vampire 1976</a>
+                    </div>
+                    <div class="card">
+                        <a href="#" class="cover">
+                            <img src="{{ asset('img/SeriesThumb5_Batman_5bd218c153e9a0.67359915.jpg') }}" alt="">
+                        </a>
+                        <a href="#" class="title">amercan vampire 1976</a>
+                    </div>
+                    <div class="card">
+                        <a href="#" class="cover">
+                            <img src="{{ asset('img/SeriesThumb5_Batman_5bd218c153e9a0.67359915.jpg') }}" alt="">
+                        </a>
+                        <a href="#" class="title">amercan vampire 1976</a>
+                    </div>
+                    <div class="card">
+                        <a href="#" class="cover">
+                            <img src="{{ asset('img/SeriesThumb5_Batman_5bd218c153e9a0.67359915.jpg') }}" alt="">
+                        </a>
+                        <a href="#" class="title">amercan vampire 1976</a>
+                    </div>
+                    <div class="card">
+                        <a href="#" class="cover">
+                            <img src="{{ asset('img/SeriesThumb5_Batman_5bd218c153e9a0.67359915.jpg') }}" alt="">
+                        </a>
+                        <a href="#" class="title">amercan vampire 1976</a>
+                    </div>
+                    <div class="card">
+                        <a href="#" class="cover">
+                            <img src="{{ asset('img/SeriesThumb5_Batman_5bd218c153e9a0.67359915.jpg') }}" alt="">
+                        </a>
+                        <a href="#" class="title">amercan vampire 1976</a>
+                    </div>
+                    <div class="card">
+                        <a href="#" class="cover">
+                            <img src="{{ asset('img/SeriesThumb5_Batman_5bd218c153e9a0.67359915.jpg') }}" alt="">
+                        </a>
+                        <a href="#" class="title">amercan vampire 1976</a>
+                    </div>
+                    <div class="card">
+                        <a href="#" class="cover">
+                            <img src="{{ asset('img/SeriesThumb5_Batman_5bd218c153e9a0.67359915.jpg') }}" alt="">
+                        </a>
+                        <a href="#" class="title">amercan vampire 1976</a>
+                    </div>
+                    <div class="card">
+                        <a href="#" class="cover">
+                            <img src="{{ asset('img/SeriesThumb5_Batman_5bd218c153e9a0.67359915.jpg') }}" alt="">
+                        </a>
+                        <a href="#" class="title">amercan vampire 1976</a>
+                    </div>
+                    <div class="card">
+                        <a href="#" class="cover">
+                            <img src="{{ asset('img/SeriesThumb5_Batman_5bd218c153e9a0.67359915.jpg') }}" alt="">
+                        </a>
+                        <a href="#" class="title">amercan vampire 1976</a>
+                    </div>
+                    <div class="card">
+                        <a href="#" class="cover">
+                            <img src="{{ asset('img/SeriesThumb5_Batman_5bd218c153e9a0.67359915.jpg') }}" alt="">
+                        </a>
+                        <a href="#" class="title">amercan vampire 1976</a>
+                    </div>
 
+                </div>
+            </section>
         </main>
+
+        <footer id="footer">
+            <section id="footer-top">
+                <div class="container">
+                    <a href="#"><i class="fas fa-tag"></i>digital comics</a>
+                    <a href="#"><i class="fas fa-tshirt"></i>dc merchandise</a>
+                    <a href="#"><i class="far fa-address-card"></i>print subscriptions</a>
+                    <a href="#"><i class="fas fa-map-marker-alt"></i>comic shop locator</a>
+                    
+
+                </div>
+            </section>
+            <section id="footer-center"></section>
+            <section id="footer-bottom"></section>
+        </footer>
     </div>
 </body>
 </html>
