@@ -104,63 +104,75 @@
                 <div class="container">
                     <nav>
                         <ul class="menu-release">
-                            <li><a href="#">this week</a></li>
+                            <li><a class="active" href="#">this week</a></li>
                             <li><a href="#">last week</a></li>
                             <li><a href="#">next week</a></li>
                             <li><a href="#">upcoming</a></li>
                             <li><a href="#">see all</a></li>
                         </ul>
                     </nav>
+                    <div class="tag">comics & graphic novels</div>
                 </div>
                 <div class="content">
                     <div class="card">
                         @yield('content')
                         {{-- da inserire in content --}}
-                        <img src="{{ asset('img/BM_106_300-001_HD_60343a048f2af5.78911718.jpg') }}" alt="">
-                        <div class="title">batman #106</div>
+                        <a class="cover" href="#"><img src="{{ asset('img/BM_106_300-001_HD_60343a048f2af5.78911718.jpg') }}" alt=""></a>
+                        <a href="#" class="title">batman #106</a>
                         <div class="available">available</div>
+                        <div class="tag">comic book</div>
                         {{-- da inserire in content --}}
-
                     </div>
+
                     <div class="card">
                         @yield('content')
                         {{-- da inserire in content --}}
-                        <img src="{{ asset('img/BM_106_300-001_HD_60343a048f2af5.78911718.jpg') }}" alt="">
-                        <div class="title">batman #106</div>
+                        <a class="cover" href="#"><img src="{{ asset('img/BM_106_300-001_HD_60343a048f2af5.78911718.jpg') }}" alt=""></a>
+                        <a href="#" class="title">batman #106</a>
                         <div class="available">available</div>
+                        <div class="tag">comic book</div>
                         {{-- da inserire in content --}}
-
                     </div>
+
                     <div class="card">
                         @yield('content')
                         {{-- da inserire in content --}}
-                        <img src="{{ asset('img/BM_106_300-001_HD_60343a048f2af5.78911718.jpg') }}" alt="">
-                        <div class="title">batman #106</div>
+                        <a class="cover" href="#"><img src="{{ asset('img/BM_106_300-001_HD_60343a048f2af5.78911718.jpg') }}" alt=""></a>
+                        <a href="#" class="title">batman #106</a>
                         <div class="available">available</div>
+                        <div class="tag">comic book</div>
                         {{-- da inserire in content --}}
-
                     </div>
+
                     <div class="card">
                         @yield('content')
                         {{-- da inserire in content --}}
-                        <img src="{{ asset('img/BM_106_300-001_HD_60343a048f2af5.78911718.jpg') }}" alt="">
-                        <div class="title">batman #106</div>
+                        <a class="cover" href="#"><img src="{{ asset('img/BM_106_300-001_HD_60343a048f2af5.78911718.jpg') }}" alt=""></a>
+                        <a href="#" class="title">batman #106</a>
                         <div class="available">available</div>
+                        <div class="tag">comic book</div>
                         {{-- da inserire in content --}}
-
                     </div>
+
                     <div class="card">
                         @yield('content')
                         {{-- da inserire in content --}}
-                        <img src="{{ asset('img/BM_106_300-001_HD_60343a048f2af5.78911718.jpg') }}" alt="">
-                        <div class="title">batman #106</div>
-                        <div class="available">available now</div>
+                        <a class="cover" href="#"><img src="{{ asset('img/BM_106_300-001_HD_60343a048f2af5.78911718.jpg') }}" alt=""></a>
+                        <a href="#" class="title">batman #106</a>
+                        <div class="available">available</div>
+                        <div class="tag">comic book</div>
                         {{-- da inserire in content --}}
-
                     </div>
+
+                   
+
+                   
+                    
                 </div>
             </section>
-            <section id="main-center"></section>
+            <section id="main-center">
+
+            </section>
             <section id="main-bottom"></section>
 
         </main>
