@@ -10,11 +10,12 @@ body {
     margin: 0;
     padding: 0;
     min-width: 1170px;
+    height: 100%;
 }
 .container{
     width: 80%;
     height: 100%;
-    max-width: 1170px;
+    //max-width: 1170px;
     margin: auto;
 }
 #header{
@@ -428,23 +429,70 @@ h1{
                     }
             
                 }
-                .terms-of-use{
-                    width: 100%;
-                    font-family: $font-poppins;
-                    font-size: $xs;
-                    color: $fnt_2;
-                    font-weight: 500;
-                    a{
-                        color: $fnt_4;
-                        text-decoration: none;
-                    }
+            .terms-of-use{
+                width: 100%;
+                font-family: $font-poppins;
+                font-size: $xs;
+                color: $fnt_2;
+                font-weight: 500;
+                a{
+                    color: $fnt_4;
+                    text-decoration: none;
                 }
+            }
         }
     }
+    .btn{
+        display: block;
+        font-family: $font-poppins;
+        font-size: large;
+        padding: 10px;
+        color: $fnt_3;
+        border: 2px solid $brd_2;
+        background: transparent;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 600;
+        transition: background-color 0.5s;
+        &:hover{
+            background: $bgc_2;
+        }
+
+    }
     #footer-bottom{
+        width: 100%;
+        height: 150px;
         position: relative;
         z-index: 2;
         min-height: 150px;
         background: $bgc_4;
+        .container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .social-container{
+                display: flex;
+                align-items: center;
+                span{
+                    color: $fnt_4;
+                    font-family: $font-bebas;
+                    font-size: $large;
+                    margin-right: 30px;
+                }
+                a{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    background-color: $fnt_6;
+                    color: $fnt_5;
+                    font-size: $large;
+                    text-decoration: none;
+                    margin-right: 20px;
+                }
+            }
+        }
     }
 }

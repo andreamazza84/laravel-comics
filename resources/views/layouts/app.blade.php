@@ -344,7 +344,18 @@
                 </div>
             </section>
             <section id="footer-bottom">
-
+                <div class="container">
+                    <a href="#" class="btn">sign-up now!</a>
+                    <div class="social-container">
+                        <span>follow us</span>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        
+                    </div>
+                </div>
             </section>
         </footer>
     </div>
