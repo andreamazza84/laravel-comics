@@ -2,16 +2,20 @@
 $bgc_1: #fff;
 $bgc_2: #0282f9;
 $bgc_3: #000;
+$bgc_4:#303030;
 
 //Font-colors
 $fnt_1: #000;
 $fnt_2: #777;
 $fnt_3: #fff;
 $fnt_4: #0282f9;
+$fnt_5:#303030;
 
 //Border Colors
 $brd_1: #ddd;
 
+//logo color
+$color_logo: rgb(2, 130, 249, 0.5);
 
 //Fonts
 
@@ -23,8 +27,13 @@ $font-poppins: 'Poppins', sans-serif;
 
 //Font-size
 $big: 34px;
-$large: 24px;
+$large: 26px;
 $medium: 18px;
 $normal: 16px;
 $small: 14px;
 $xs: 12px;
+
+//Utility
+.col-25{
+    width: calc(100% / 4);
+}

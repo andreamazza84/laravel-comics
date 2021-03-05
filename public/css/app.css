@@ -1,4 +1,8 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);* {
+@import url(https://fonts.googleapis.com/css?family=Nunito);.col-25 {
+  width: calc(100% / 4);
+}
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -8,7 +12,9 @@ body {
   background-color: #fff;
   color: #000;
   font-family: "Passion One", cursive;
-  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  min-width: 1170px;
 }
 
 .container {
@@ -368,7 +374,7 @@ h1 {
 #main #main-center .container .card .title {
   display: block;
   color: #000;
-  font-size: 24px;
+  font-size: 26px;
   text-decoration: none;
   text-transform: uppercase;
   margin-bottom: 5px;
@@ -430,13 +436,14 @@ h1 {
 
 #footer {
   width: 100%;
-  height: 200px;
   background: #0282f9;
 }
 
 #footer #footer-top {
+  position: relative;
+  z-index: 2;
   width: 100%;
-  height: 100%;
+  height: 200px;
 }
 
 #footer #footer-top .container {
@@ -458,5 +465,78 @@ h1 {
 #footer #footer-top .container a i {
   font-size: 45px;
   margin-right: 20px;
+}
+
+#footer #footer-center {
+  position: relative;
+  z-index: 0;
+  background: #000;
+  background-size: cover;
+  padding: 40px 0;
+}
+
+#footer #footer-center .background-logo {
+  position: absolute;
+  right: 5%;
+  top: -20%;
+  z-index: 1;
+}
+
+#footer #footer-center .background-logo svg {
+  transform: rotate(-25deg);
+  fill: rgba(2, 130, 249, 0.5);
+  height: 600px;
+}
+
+#footer #footer-center .container .menu-container {
+  display: flex;
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+#footer #footer-center .container .menu-container .menu {
+  margin-bottom: 10px;
+}
+
+#footer #footer-center .container .menu-container .menu li {
+  list-style: none;
+  line-height: 1.5;
+}
+
+#footer #footer-center .container .menu-container .menu li a {
+  text-decoration: none;
+  color: #777;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+#footer #footer-center .container .menu-container .menu .title {
+  color: #fff;
+  font-size: 26px;
+  text-transform: uppercase;
+  font-family: "Bebas Neue", cursive;
+  margin-bottom: 10px;
+}
+
+#footer #footer-center .container .terms-of-use {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  color: #777;
+  font-weight: 500;
+}
+
+#footer #footer-center .container .terms-of-use a {
+  color: #0282f9;
+  text-decoration: none;
+}
+
+#footer #footer-bottom {
+  position: relative;
+  z-index: 2;
+  min-height: 150px;
+  background: #303030;
 }
 
