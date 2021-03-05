@@ -57,12 +57,12 @@ body {
   font-family: "Anton", sans-serif;
   text-transform: uppercase;
   transform: skew(15deg);
-  font-size: 16px;
+  font-size: 14px;
 }
 
 #header .menu-top .menu-right li a svg {
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   fill: white;
   margin-right: 5px;
 }
@@ -151,7 +151,7 @@ body {
   border: none;
   font-family: "Bebas Neue", cursive;
   padding: 5px;
-  font-size: 15px;
+  font-size: 16px;
   text-transform: capitalize;
   text-align: right;
 }
@@ -197,13 +197,24 @@ body {
   text-align: right;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+  font-family: "Bebas Neue", cursive;
+}
+
+h1 {
+  font-size: 34px;
+}
+
 .tag {
   position: absolute;
-  background: #0282f9;
-  color: #fff;
-  font-family: "Bebas Neue", cursive;
   padding: 0.2em 0.5em;
-  text-transform: uppercase;
+  font-family: "Bebas Neue", cursive;
 }
 
 #main {
@@ -225,7 +236,8 @@ body {
   transform: translate(0, -50%);
   top: 0;
   left: 0;
-  font-size: 30px;
+  background: #0282f9;
+  color: #fff;
 }
 
 #main #main-top .container nav {
@@ -269,17 +281,19 @@ body {
 
 #main #main-top .content .card {
   position: relative;
-  width: calc(100% / 5);
+  width: auto;
   height: 100%;
-  padding: 0 10px;
+  font-family: "Bebas Neue", cursive;
   text-transform: uppercase;
-  font-family: "Amaranth", sans-serif;
+  padding: 0 10px;
 }
 
 #main #main-top .content .card .tag {
   top: 0;
   left: 10px;
   font-size: 14px;
+  background: #0282f9;
+  color: #fff;
 }
 
 #main #main-top .content .card .cover {
@@ -298,16 +312,70 @@ body {
   color: #fff;
   margin-bottom: 10px;
   text-decoration: none;
+  font-family: "Poppins", sans-serif;
 }
 
 #main #main-top .content .card .available {
   color: #0282f9;
+  font-family: "Poppins", sans-serif;
 }
 
 #main #main-center {
-  padding-top: 20px;
-  padding-bottom: 40px;
+  padding: 40px 0;
   background: #fff;
   min-height: 400px;
+}
+
+#main #main-center .container {
+  display: flex;
+  padding-top: 40px;
+}
+
+#main #main-center .container .card {
+  position: relative;
+  width: calc(100% / 4);
+  height: 100%;
+  font-family: "Bebas Neue", cursive;
+  padding: 0 10px;
+}
+
+#main #main-center .container .card .tag {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  color: #0282f9;
+  font-size: 34px;
+  transform: translate(0, -50%);
+  top: -40px;
+  left: 0;
+  text-align: center;
+}
+
+#main #main-center .container .card .cover {
+  margin-bottom: 5px;
+}
+
+#main #main-center .container .card .cover img {
+  width: 100%;
+}
+
+#main #main-center .container .card .advertise {
+  color: #0282f9;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+#main #main-center .container .card .title {
+  display: block;
+  color: #000;
+  font-size: 24px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+#main #main-center .container .card .description {
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
 }
 

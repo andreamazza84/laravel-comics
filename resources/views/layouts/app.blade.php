@@ -14,10 +14,11 @@
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&family=Bebas+Neue&family=Passion+One&display=swap" rel="stylesheet">     
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet"> 
     <!-- Font-Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     
@@ -96,12 +97,12 @@
                 </div>
 
             </nav>
-
         </header>
 
         <main id="main">
             <section id="main-top">
                 <div class="container">
+                    <h1 class="tag">comics & graphic novels</h1>
                     <nav>
                         <ul class="menu-release">
                             <li><a class="active" href="#">this week</a></li>
@@ -111,7 +112,6 @@
                             <li><a href="#">see all</a></li>
                         </ul>
                     </nav>
-                    <div class="tag">comics & graphic novels</div>
                 </div>
                 <div class="content">
                     <div class="card">
@@ -163,15 +163,37 @@
                         <div class="tag">comic book</div>
                         {{-- da inserire in content --}}
                     </div>
-
-                   
-
-                   
-                    
                 </div>
             </section>
             <section id="main-center">
+                <div class="container">
+                    <div class="card">
+                        <h1 class="tag">must reads</h1>
+                        {{-- da inserire in content --}}
+                        <a class="cover" href="#"><img src="{{ asset('img/mustRead_DCC_5_v2_5f6b8b49bfd6a9.60761869.jpg') }}" alt=""></a>
+                        <div class="advertise">get the inside track on all things dc</div>
+                        <a href="#" class="title">dc connect</a>
+                        <div class="description">The monthly, downloadable catalog of DC's comics, graphic novels, collectibles and more!</div>
+                        {{-- da inserire in content --}}
+                    </div>
+                    <div class="card">
+                        {{-- da inserire in content --}}
+                        <a class="cover" href="#"><img src="{{ asset('img/MUSTREAD_20190114_SandmanUniverse_5c3e4bab834ac9.58189616.jpg') }}" alt=""></a>
+                        <div class="advertise">get the inside track on all things dc</div>
+                        <a href="#" class="title">dc connect</a>
+                        <div class="description">The monthly, downloadable catalog of DC's comics, graphic novels, collectibles and more!</div>
+                        {{-- da inserire in content --}}
+                    </div>
+                    <div class="card">
+                        {{-- da inserire in content --}}
+                        <a class="cover" href="#"><img src="{{ asset('img/MUSTREAD_20190114_WonderComics_5c3e4b8d091c94.82772322.jpg') }}" alt=""></a>
+                        <div class="advertise">get the inside track on all things dc</div>
+                        <a href="#" class="title">dc connect</a>
+                        <div class="description">The monthly, downloadable catalog of DC's comics, graphic novels, collectibles and more!</div>
+                        {{-- da inserire in content --}}
+                    </div>
 
+                </div>
             </section>
             <section id="main-bottom"></section>
 
