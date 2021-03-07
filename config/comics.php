@@ -1,7 +1,8 @@
 <?php
-
+//comics
 return  [
     [
+        'jingle' => 'x',
         'title' => 'batman #106',
         'description' => 'Following the tragic events of Infinite Frontier #1, Batman and his new ally, Ghost-Maker, must reckon with a new gang operating in Gotham City, but are they connected to the reemergence of the Scarecrow? Meanwhile, shadowy billionaire Simon Saint pitches an advanced law-enforcement system to the new mayor! The creative team behind the epic “The Joker War” returns with a thrill-packed, dangerous new storyline called “The Cowardly Lot.” Plus, the backup story “Demon or Detective” begins as Damian Wayne is on the run! After everything Damian has gone through, can he escape Gotham and find his way back to where his journey started—to his mother, Talia al Ghul? This two-part tale concludes this month in Detective Comics #1034!',
         'price' => '4.99',
@@ -14,6 +15,7 @@ return  [
         'pages' => 40
     ],
     [
+        'jingle' => 'x',
         'title' => 'crime syndicate #1',
         'description' => 'Following the tragic events of Infinite Frontier #1, Batman and his new ally, Ghost-Maker, must reckon with a new gang operating in Gotham City, but are they connected to the reemergence of the Scarecrow? Meanwhile, shadowy billionaire Simon Saint pitches an advanced law-enforcement system to the new mayor! The creative team behind the epic “The Joker War” returns with a thrill-packed, dangerous new storyline called “The Cowardly Lot.” Plus, the backup story “Demon or Detective” begins as Damian Wayne is on the run! After everything Damian has gone through, can he escape Gotham and find his way back to where his journey started—to his mother, Talia al Ghul? This two-part tale concludes this month in Detective Comics #1034!',
         'price' => '4.99',
@@ -26,6 +28,7 @@ return  [
         'pages' => 40
     ],
     [
+        'jingle' => 'x',
         'title' => 'infinite frontier #0',
         'description' => 'Following the tragic events of Infinite Frontier #1, Batman and his new ally, Ghost-Maker, must reckon with a new gang operating in Gotham City, but are they connected to the reemergence of the Scarecrow? Meanwhile, shadowy billionaire Simon Saint pitches an advanced law-enforcement system to the new mayor! The creative team behind the epic “The Joker War” returns with a thrill-packed, dangerous new storyline called “The Cowardly Lot.” Plus, the backup story “Demon or Detective” begins as Damian Wayne is on the run! After everything Damian has gone through, can he escape Gotham and find his way back to where his journey started—to his mother, Talia al Ghul? This two-part tale concludes this month in Detective Comics #1034!',
         'price' => '4.99',
@@ -38,6 +41,7 @@ return  [
         'pages' => 40
     ],
     [
+        'jingle' => 'x',
         'title' => 'man-bat #2',
         'description' => 'Following the tragic events of Infinite Frontier #1, Batman and his new ally, Ghost-Maker, must reckon with a new gang operating in Gotham City, but are they connected to the reemergence of the Scarecrow? Meanwhile, shadowy billionaire Simon Saint pitches an advanced law-enforcement system to the new mayor! The creative team behind the epic “The Joker War” returns with a thrill-packed, dangerous new storyline called “The Cowardly Lot.” Plus, the backup story “Demon or Detective” begins as Damian Wayne is on the run! After everything Damian has gone through, can he escape Gotham and find his way back to where his journey started—to his mother, Talia al Ghul? This two-part tale concludes this month in Detective Comics #1034!',
         'price' => '4.99',
@@ -50,6 +54,7 @@ return  [
         'pages' => 40
     ],
     [
+        'jingle' => 'x',
         'title' => 'sensational wonder woman #9',
         'description' => 'Following the tragic events of Infinite Frontier #1, Batman and his new ally, Ghost-Maker, must reckon with a new gang operating in Gotham City, but are they connected to the reemergence of the Scarecrow? Meanwhile, shadowy billionaire Simon Saint pitches an advanced law-enforcement system to the new mayor! The creative team behind the epic “The Joker War” returns with a thrill-packed, dangerous new storyline called “The Cowardly Lot.” Plus, the backup story “Demon or Detective” begins as Damian Wayne is on the run! After everything Damian has gone through, can he escape Gotham and find his way back to where his journey started—to his mother, Talia al Ghul? This two-part tale concludes this month in Detective Comics #1034!',
         'price' => '4.99',

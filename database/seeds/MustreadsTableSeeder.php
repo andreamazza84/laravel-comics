@@ -1,11 +1,11 @@
 <?php
 
-use App\Comic;
+use App\Mustread;
 use Illuminate\Database\Seeder;
 use Faker\Generator as Faker;
 
 
-class ComicsTableSeeder extends Seeder
+class MustreadsTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -14,21 +14,15 @@ class ComicsTableSeeder extends Seeder
      */
     public function run()
     {
-        $comics_list = config('comics');
-        
-        foreach ($comics_list as $comic) {
-            $newComic = new Comic();
+        $mustread_list = config('mustread');
+
+        foreach ($mustread_list as $comic) {
+            $newComic = new Mustread();
             $newComic->jingle = $comic['jingle'];
             $newComic->title = $comic['title'];
             $newComic->description = $comic['description'];
-            $newComic->price = $comic['price'];
-            $newComic->author = $comic['author'];
-            $newComic->artist = $comic['artist'];
             $newComic->cover = $comic['cover'];
-            $newComic->poster = $comic['poster'];
             $newComic->available = $comic['available'];
-            $newComic->volume = $comic['volume'];
-            $newComic->pages = $comic['pages'];
             $newComic->save();
         }
     }

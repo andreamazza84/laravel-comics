@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
+use App\Comic;
 
 
 /*
@@ -15,10 +16,8 @@ use Illuminate\Support\Facades\Auth;
 |
 */
 
-Route::get('/comics', function () {
-    return view('comics');
-});
+Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/comics', 'PageController@comics')->name('comics');
 
 Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
