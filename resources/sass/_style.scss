@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     background-color: $bgc_1;
     color: $fnt_1;
@@ -10,7 +11,7 @@ body {
     margin: 0;
     padding: 0;
     min-width: 1170px;
-    height: 100%;
+    //height: 100%;
 }
 .container{
     width: 80%;
@@ -39,6 +40,7 @@ body {
                 border-right: 1px solid $bgc_1;
                 -webkit-transform: skew(-15deg);
                 transform: skew(-15deg);
+                transition: all 0.2s;
                 a{
                     display: flex;
                     width: fit-content;
@@ -51,19 +53,28 @@ body {
                     -webkit-transform: skew(+15deg);
                     transform: skew(+15deg);
                     font-size: $small;
+                    transition: all 0.2s;
                     svg{
                         width: 20px;
                         height: 20px;
                         fill: white;
                         margin-right: 5px;
+                        transition: all 0.2s;
                     }
                 }
                 &:last-child{
-                    -webkit-transform: skew(0deg);
-                    transform: skew(0deg);
                     a{
-                        -webkit-transform: skew(0deg);
-                        transform: skew(0deg);
+                        -webkit-transform: skew(+15deg);
+                        transform: skew(+15deg);
+                    }
+                }
+            }
+            li:hover{
+                background: $bgc_1;
+                a{
+                    color: $fnt_4;
+                    svg{
+                        fill: $fnt_4;
                     }
                 }
             }

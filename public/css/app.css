@@ -15,7 +15,6 @@ body {
   margin: 0;
   padding: 0;
   min-width: 1170px;
-  height: 100%;
 }
 
 .container {
@@ -47,6 +46,7 @@ body {
   list-style: none;
   border-right: 1px solid #fff;
   transform: skew(-15deg);
+  transition: all 0.2s;
 }
 
 #header .menu-top .menu-right li a {
@@ -64,6 +64,7 @@ body {
   text-transform: uppercase;
   transform: skew(15deg);
   font-size: 14px;
+  transition: all 0.2s;
 }
 
 #header .menu-top .menu-right li a svg {
@@ -71,14 +72,23 @@ body {
   height: 20px;
   fill: white;
   margin-right: 5px;
-}
-
-#header .menu-top .menu-right li:last-child {
-  transform: skew(0deg);
+  transition: all 0.2s;
 }
 
 #header .menu-top .menu-right li:last-child a {
-  transform: skew(0deg);
+  transform: skew(15deg);
+}
+
+#header .menu-top .menu-right li:hover {
+  background: #fff;
+}
+
+#header .menu-top .menu-right li:hover a {
+  color: #0282f9;
+}
+
+#header .menu-top .menu-right li:hover a svg {
+  fill: #0282f9;
 }
 
 #header .menu-bottom {
