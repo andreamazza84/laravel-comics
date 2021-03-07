@@ -7,11 +7,9 @@
 body {
     background-color: $bgc_1;
     color: $fnt_1;
-    font-family: $font-passion;
-    margin: 0;
-    padding: 0;
+    font-family: $font-bebas;
     min-width: 1170px;
-    //height: 100%;
+    overflow-x: hidden;
 }
 .container{
     width: 80%;
@@ -436,9 +434,7 @@ h1{
                             font-family: $font-bebas;
                             margin-bottom: 10px;
                         }
-    
                     }
-            
                 }
             .terms-of-use{
                 width: 100%;
@@ -468,7 +464,6 @@ h1{
         &:hover{
             background: $bgc_2;
         }
-
     }
     #footer-bottom{
         width: 100%;
@@ -505,5 +500,119 @@ h1{
                 }
             }
         }
+    }
+}
+
+#comic-main-top,
+#comic-main-center,
+#comic-main-bottom{
+    min-height: 400px;
+}
+
+.tight-container{
+    width: 60%;
+}
+
+#comic-main-top{
+    height: 450px;
+    background-color:$bgc_2;
+    .background{
+        width: 100%;
+        height: 80%;
+        background-position: top left;
+        background-size: 120%;
+        background-repeat: no-repeat;
+    }
+    .tight-container{
+        position: relative;
+        .cover{
+            position: absolute;
+            left: 0;
+            bottom: -20%;
+            //transform: translateY(-100%);
+            width: 200px;
+            height: 300px;
+            background-size: contain;
+            border: 1px solid $brd_3;
+        }
+    }
+}
+
+#comic-main-center{
+    padding: 40px 0;
+    .title{
+        color: $fnt_1;
+        margin-bottom: 30px; 
+    }
+    .green-banner{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 60px;
+        color: $fnt_3;
+        background-color: $bgc_5;
+        border: 1px solid $brd_2;
+        font-family: $font-poppins;
+        font-weight: 600;
+        margin-bottom: 30px;
+        .available{
+            display: flex;
+            width: 70%;
+            justify-content: space-between;
+            align-items: center;
+            text-transform: uppercase;
+            padding: 0 30px;
+        }
+        .check{
+            display: flex;
+            width: 30%;
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+            text-transform: capitalize;
+            border-left: 1px solid $brd_2;
+            padding: 0 30px;
+            cursor: pointer;
+            i{
+                margin-left: 5px;
+            }
+        }
+    }
+    .description{
+        font-family: $font-poppins;
+        font-size: $small;
+        color: $fnt_2;
+        text-align: justify;
+    }
+}
+
+#comic-main-bottom{
+    padding: 40px 0;
+    background-color: $bgc_6;
+    font-family: $font-poppins;
+    .tight-container{
+        display: flex;
+    }
+    .col-50{
+        margin-right: 30px;
+    }
+    h2{
+        font-family: $font-bebas;
+    }
+    .row{
+        display: flex;
+        width: 100%;
+        padding: 15px 0;
+        border-bottom: 1px solid $brd_1;
+        p{
+            font-size: $small;
+            text-transform: capitalize;
+            &:last-child{
+                color: $fnt_4;
+                text-transform: uppercase;
+            }
+        }
+        
     }
 }

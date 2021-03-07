@@ -9,7 +9,7 @@ return  [
         'author' => ' Joshua Williamson',
         'artist' => 'Gleb Melnikov, Jorge Jimenez',
         'cover' => 'BM_106_300-001_HD_60343a048f2af5.78911718.jpg',
-        'poster' => 'https://www.dccomics.com/sites/default/files/Gallery_20210302_BATMAN_Cv106_60356b7a5a3243.23114360.jpg',
+        'poster' => 'Gallery_20210302_BATMAN_Cv106_60356b7a5a3243.23114360.jpg',
         'available' => true,
         'volume' => 106,
         'pages' => 40
@@ -22,7 +22,7 @@ return  [
         'author' => ' Joshua Williamson',
         'artist' => 'Gleb Melnikov, Jorge Jimenez',
         'cover' => 'CRIMESYN_01_300-001_HD_60343d66789362.85081498.jpg',
-        'poster' => 'https://www.dccomics.com/sites/default/files/Gallery_20210302_CrimeSyndicate%201%20copy_60356b8fe7af73.90160433.jpg',
+        'poster' => 'Gallery_20210302_CrimeSyndicate%201%20copy_60356b8fe7af73.90160433.jpg',
         'available' => true,
         'volume' => 106,
         'pages' => 40
@@ -35,7 +35,7 @@ return  [
         'author' => ' Joshua Williamson',
         'artist' => 'Gleb Melnikov, Jorge Jimenez',
         'cover' => 'INFFRONTIER_00_300-001_HD_60343ebbcf91c6.60131949.jpg',
-        'poster' => 'https://www.dccomics.com/sites/default/files/Gallery_20210302_INFINITE_FRONTIER_Cv0%20copy_60356ba3d84775.98324712.jpg',
+        'poster' => 'Gallery_20210302_INFINITE_FRONTIER_Cv0%20copy_60356ba3d84775.98324712.jpg',
         'available' => true,
         'volume' => 106,
         'pages' => 40
@@ -48,7 +48,7 @@ return  [
         'author' => ' Joshua Williamson',
         'artist' => 'Gleb Melnikov, Jorge Jimenez',
         'cover' => 'MANBAT_02_300-001_HD_60343d7c5bd4e9.59772997.jpg',
-        'poster' => 'https://www.dccomics.com/sites/default/files/Gallery_20210302_MAN_BAT%202_60356bbaec0df0.45786056.jpg',
+        'poster' => 'Gallery_20210302_MAN_BAT%202_60356bbaec0df0.45786056.jpg',
         'available' => true,
         'volume' => 106,
         'pages' => 40
@@ -61,7 +61,7 @@ return  [
         'author' => ' Joshua Williamson',
         'artist' => 'Gleb Melnikov, Jorge Jimenez',
         'cover' => 'SWW-09_CoversCredits-3_60355ea0df3695.12671771.jpg',
-        'poster' => 'https://www.dccomics.com/sites/default/files/Gallery_20210302_SWW-09_CoversCredits_60356be44ec476.55782690.jpg',
+        'poster' => 'Gallery_20210302_SWW-09_CoversCredits_60356be44ec476.55782690.jpg',
         'available' => true,
         'volume' => 106,
         'pages' => 40

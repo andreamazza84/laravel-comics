@@ -1,11 +1,13 @@
 //Background colors
-$bgc_1: #fff;
-$bgc_2: #0282f9;
-$bgc_3: #000;
+$bgc_1:#fff;
+$bgc_2:#0282f9;
+$bgc_3:#000;
 $bgc_4:#303030;
+$bgc_5:#55ba59;
+$bgc_6:#f6f6f6;
 
 //Font-colors
-$fnt_1: #000;
+$fnt_1: #003f5e;
 $fnt_2: #777;
 $fnt_3: #fff;
 $fnt_4: #0282f9;
@@ -15,6 +17,7 @@ $fnt_6: #797979;
 //Border Colors
 $brd_1: #ddd;
 $brd_2: #0282f9;
+$brd_3: #fff;
 
 
 //logo color
@@ -39,4 +42,7 @@ $xs: 12px;
 //Utility
 .col-25{
     width: calc(100% / 4);
+}
+.col-50{
+    width: calc(100% / 2);
 }

@@ -17,9 +17,9 @@
     <div class="content">
         @foreach($comics as $comic) <!-- comics -->
         <div class="card">
-            <a class="cover" href="#"><img src="{{'img/'.$comic->cover }}" alt="cover"></a>
-            <a href="#" class="title">{{ $comic->title }}</a>
-            <div class="available">{{ $comic->available?'available now':'' }}</div>
+            <a class="cover" href="{{ route('comics.show', $comic->id) }}"><img src="{{'img/'.$comic->cover }}" alt="cover"></a>
+            <a href="{{ route('comics.show', $comic->id) }}" class="title">{{ $comic->title }}</a>
+            <div class="available">{{ $comic->available?'available now':'not available' }}</div>
             <div class="tag">comic book</div>
         </div>
         @endforeach
@@ -28,13 +28,22 @@
 <section id="main-center">
     <div class="container">
         @foreach($mustreads as $mustread) <!-- mustreads -->
-        <div class="card">
-            {{-- <h1 class="tag">must reads</h1> --}}
+        @if ($loop->first)
+            <div class="card">
+            <h1 class="tag">must reads</h1>
             <a class="cover" href="#"><img src="{{ 'img/'.$mustread->cover }}" alt="cover"></a>
             <div class="advertise">{{ $mustread->jingle }}</div>
             <a href="#" class="title">{{ $mustread->title }}</a>
             <div class="description">{{ $mustread->description }}</div>
         </div>
+        @else
+        <div class="card">
+            <a class="cover" href="#"><img src="{{ 'img/'.$mustread->cover }}" alt="cover"></a>
+            <div class="advertise">{{ $mustread->jingle }}</div>
+            <a href="#" class="title">{{ $mustread->title }}</a>
+            <div class="description">{{ $mustread->description }}</div>
+        </div>
+        @endif
         @endforeach
     </div>
 </section>

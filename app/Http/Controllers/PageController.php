@@ -8,10 +8,11 @@ use Illuminate\Http\Request;
 
 class PageController extends Controller
 {
-    public function comics()
-    {
-        $comics = Comic::all();
-        $mustreads = Mustread::all();
-        return view('guests.comics', compact('comics', 'mustreads'));
-    }
+    // public function comics()
+    // {
+    //     // $comics = Comic::all();
+    //     // $mustreads = Mustread::all();
+    //     // return view('comics.comics', compact('comics', 'mustreads'));
+    // }
+    
 }

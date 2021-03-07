@@ -80,13 +80,13 @@
                     </a>
                     <ul class="navbar">
                         <li><a href="#">characters</a></li>
-                        <li><a href="#" class="active">comics</a></li>
-                        <li><a href="#">movies</a></li>
-                        <li><a href="#">tv</a></li>
-                        <li><a href="#">games</a></li>
-                        <li><a href="#">videos</a></li>
-                        <li><a href="#">news</a></li>
-                        <li><a href="#">shop</a></li>
+                        <li><a href="{{ route('comics') }}" class="{{ Route::currentRouteName() === 'comics'?'active':''}}">comics</a></li>
+                        <li><a href="#" class="{{ Route::currentRouteName() === 'movies'?'active':''}}">movies</a></li>
+                        <li><a href="#" class="{{ Route::currentRouteName() === 'tv'?'active':''}}">tv</a></li>
+                        <li><a href="#" class="{{ Route::currentRouteName() === 'games'?'active':''}}">games</a></li>
+                        <li><a href="#" class="{{ Route::currentRouteName() === 'videos'?'active':''}}">videos</a></li>
+                        <li><a href="#" class="{{ Route::currentRouteName() === 'news'?'news':''}}">news</a></li>
+                        <li><a href="#" class="{{ Route::currentRouteName() === 'shop'?'shop':''}}">shop</a></li>
                     </ul>
                     <div class="searchbar">
                         <div class="wrapper">
@@ -173,7 +173,7 @@
             </section>
             <section id="footer-bottom">
                 <div class="container">
-                    <a href="#" class="btn">sign-up now!</a>
+                    <a href="{{ route('home') }}" class="btn">sign-up now!</a>
                     <div class="social-container">
                         <span>follow us</span>
                         <a href="#"><i class="fab fa-facebook-f"></i></a>

@@ -18,6 +18,7 @@ use App\Comic;
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/comics', 'PageController@comics')->name('comics');
+//Route::get('/comics', 'PageController@comics')->name('comics');
 
+Route::resource('comics', 'ComicController', ['names' => ['index' => 'comics']]);
 Auth::routes();
